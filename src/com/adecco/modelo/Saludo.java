@@ -2,20 +2,26 @@ package com.adecco.modelo;
 
 public class Saludo {
     //Atributos
-    private String saludo;
+    private String mensajeSaludo;
     private String nombre;
 
     //método
+//    public String saludar(){
+//        return "Bienvenida al curso desde metodo saludar";
+//    }
+
     public String saludar(){
-        return "Bienvenida al curso";
+        return mensajeSaludo;
     }
     //setters y getters
-    public String getSaludo() {
-        return saludo;
+
+
+    public String getMensajeSaludo() {
+        return mensajeSaludo;
     }
 
-    public void setSaludo(String saludo) {
-        this.saludo = saludo;
+    public void setMensajeSaludo(String mensajeSaludo) {
+        this.mensajeSaludo = mensajeSaludo;
     }
 
     public void setNombre(String nombre){
